@@ -1,0 +1,32 @@
+.header {
+    height: 50px;
+    line-height: 50px;
+    color: white;
+
+    .logo {
+        float: left;
+    }
+
+    .userInfo {
+        float: right;
+
+        .user {
+            padding: 0 20px;
+        }
+
+        .quite {
+            text-decoration: none;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            color: white
+        }
+
+        .quite:hover {
+            color: red;
+            background-color: green;
+        }
+    }
+
+}
